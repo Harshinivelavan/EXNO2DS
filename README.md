@@ -64,7 +64,9 @@ STEP 8: Use heatmap method of representation to show relationships between two v
 
 
   
+#SUMMARY
 
+This script does an Exploratory Data Analysis (EDA) on the Titanic dataset using pandas, numpy, matplotlib, and seaborn. It starts by loading the dataset, showing basic details, setting PassengerId as the index, and creating summary statistics. For categorical data, it uses value_counts(), and for univariate analysis, it makes countplots of the Survived column and checks unique values in passenger class. In bivariate analysis, it uses countplots, catplots, and boxplots to study relationships like Age vs Survived. For multivariate analysis, it compares Pclass, Age, Gender, and Survived together using boxplots and catplots. Finally, it uses heatmaps and pairplots to find patterns and correlations, giving a clear picture of survival trends and relationships in the dataset.
 
       
 
